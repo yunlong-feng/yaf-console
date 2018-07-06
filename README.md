@@ -54,7 +54,7 @@ $application = new Application();
 
 // ... register commands
 $application->add(new ModuleMakeCommand());
-$application->add(new GenerateMakeCommand());
+$application->add(new ControllerMakeCommand());
 $application->add(new ModelMakeCommand());
 $application->add(new PluginMakeCommand());
 $application->add(new CheckCommand());
